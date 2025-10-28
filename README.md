@@ -596,6 +596,11 @@ Real  No F.      85,295      8    ← TN y FP
 
 ### 📊 Celda 12: Reporte de Clasificación
 
+### 💡 Interpretación:
+    De cada 100 predicciones de fraude, 43.4 son correctas (Precision)
+    Detectamos el 83.8% de todos los fraudes reales (Recall)
+    Balance entre ambas: 0.5714 (F1-Score)
+
 ```python
 print(classification_report(y_test, y_pred))
 ```
