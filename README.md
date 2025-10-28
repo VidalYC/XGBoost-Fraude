@@ -592,6 +592,11 @@ Real  No F.      85,295      8    ← TN y FP
 - ✅ Identificamos correctamente 85,295 (99.99%)
 - ❌ Marcamos mal 8 (0.01%)
 
+ **Verdaderos Negativos (TN): 85,133 - Correctamente identificados como NO fraude
+ Falsos Positivos (FP):        162 - Incorrectamente marcados como fraude
+ Falsos Negativos (FN):         24 - Fraudes no detectados
+ Verdaderos Positivos (TP):    124 - Fraudes correctamente detectados**
+ 
 ---
 
 ### 📊 Celda 12: Reporte de Clasificación
